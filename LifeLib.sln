@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeLib.Wpf", "LifeLib.Wpf\LifeLib.Wpf.csproj", "{C70AEB7E-2EB3-4C96-A95E-473E37FF27D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{097F579F-DBE9-4E51-9363-4D372F6AD7B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4A261012-077F-4B0D-A5FB-828AAB055DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{F2612127-324D-4035-A76C-873F01D169BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C70AEB7E-2EB3-4C96-A95E-473E37FF27D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C70AEB7E-2EB3-4C96-A95E-473E37FF27D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C70AEB7E-2EB3-4C96-A95E-473E37FF27D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C70AEB7E-2EB3-4C96-A95E-473E37FF27D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2612127-324D-4035-A76C-873F01D169BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2612127-324D-4035-A76C-873F01D169BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2612127-324D-4035-A76C-873F01D169BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2612127-324D-4035-A76C-873F01D169BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C70AEB7E-2EB3-4C96-A95E-473E37FF27D6} = {097F579F-DBE9-4E51-9363-4D372F6AD7B4}
+		{F2612127-324D-4035-A76C-873F01D169BE} = {4A261012-077F-4B0D-A5FB-828AAB055DDB}
+	EndGlobalSection
+EndGlobal
